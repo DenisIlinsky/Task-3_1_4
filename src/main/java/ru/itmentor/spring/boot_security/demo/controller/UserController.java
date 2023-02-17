@@ -13,7 +13,7 @@ import ru.itmentor.spring.boot_security.demo.service.UserService;
 import java.security.Principal;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/")
 public class UserController {
 
     private final UserService userService;
